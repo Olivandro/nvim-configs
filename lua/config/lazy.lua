@@ -29,4 +29,9 @@ require("lazy").setup({
 		-- version = "*", -- try installing the latest stable version for plugins that support semver
 	},
 	change_detection = { notify = false },
+	performance = {
+		rtp = {
+			reset = false,
+		},
+      },
 })
